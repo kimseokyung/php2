@@ -1,0 +1,196 @@
+
+/* gloval style*/
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    display: inline-block;
+}
+/* custom sytle */
+
+#wrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin:  0 auto;
+    
+   
+}
+#main .featured{
+    background-color: white;
+    padding: 30px;
+   
+}
+#header a {
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+
+   
+}
+#header{
+    text-align: center;
+    margin: 60px 0;
+}
+
+#nav ul li {
+    display: inline-block;
+
+}
+#nav ul.menus{
+    float: left;
+    
+
+}
+#nav{
+    background-color: rgb(55, 55, 55);
+   
+    overflow: hidden;
+    
+
+}
+#nav ul.menus li.active{
+    background-color:  #ffffff;
+    color: #000;
+   
+}
+#nav ul.menus li.active a{
+    color: #000000;
+    
+
+}
+
+#nav ul.menus li a{
+    
+    color: #ffffff;
+}
+
+#nav ul.menus li, #nav ul.icons li{
+    padding: 20px;
+}
+#nav ul.icons{
+    float: right;
+
+}
+#nav ul.icons li a{
+    color: white;
+    
+
+}
+#main.featured{
+    background-color: #ffffff;
+    padding: 40px;
+
+}
+#main .featured header h2{
+    text-align: center;
+    padding: 20px 0px 40px;
+}
+#main .featured header h2 a{
+    font-size: 36px;
+}
+
+#main .featured header a img{
+   width: 100%;
+    
+}
+#main .featured p{
+    margin: 36px 0;
+
+}
+
+#footer{
+    display: flex;
+    background-color: #dddddd;
+    padding: 20px;
+   
+}
+#footer.contant, #footer.info{
+    
+}
+
+#footer.contact.inputs{
+    box-sizing: border-box;
+
+}
+#footer .contact .inputs input{
+    width: 100%;
+    border: solid 3px gray;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+#footer.contact.inputs label{
+
+    padding: 20px;
+
+}
+#footer .contact .inputs textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border:  solid 3px gray;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+#footer .contact .submit input{
+    border:  solid 3px #333333;
+    background-color:  rgb(255, 255, 255);
+    padding: 15px 10px;
+}
+#footer.info section{
+    display:  flex;
+    
+}
+
+#footer .info section h3{
+    flex: 1;
+    padding-left: 30px;
+}
+#footer .info section p{
+    flex: 2;
+    padding-left: 30px;
+    
+}
+#footer .info section ul{
+    flex: 3;
+    padding-left: 30px;
+    
+}
+#footer .info section ul li{
+    float: right;
+    padding-right: 20px;
+    
+}
+#copyright{
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+#copyright p{
+    color: #cccccc;
+}
+
+.bg{
+    position:  fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/background.png) no-repeat fixed center;
+    z-index: -1;
+    opacity: 0.4;
+}
