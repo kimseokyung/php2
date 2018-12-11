@@ -6,7 +6,7 @@ $title = $_POST['name'];
 $contents = $_POST['contents'];
 //$author = $_POST['author'];
 
-$sql = "INSERT INTO user(`name`,contents) values('$title','$contents')";
+$sql = "INSERT INTO user(`name`,`contents`) values('$title','$contents')";
 $result = mysqli_query($conn, $sql);
 
 ?>
