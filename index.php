@@ -19,11 +19,7 @@ $result = mysqli_query($conn, $sql);
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-<p>000000000000000000000000000000000</p>
-<p>000000000000000000000000000000000</p>
-<p>000000000000000000000000000000000</p>
-<p>000000000000000000000000000000000</p>
-<p>dkdkdkdk</p>
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -48,14 +44,14 @@ $result = mysqli_query($conn, $sql);
         </div>
         <div class="row">
             <div class="col p-5">
-                <h1>Test DB</h1>
+                <h1>UNITY 3D GAME</h1>
                 <table class='table table-striped table-hover table-sm'>
                     <thead class='thead-dark'>
                         <tr>
                             <th>id</th>
-                            <th>username</th>
-                            <th>email</th>
-                            <th>reg_date</th>
+                            <th>성명</th>
+                            <th>내용</th>
+                            <th>시간</th>
                         </tr>
                     </thead>
                     <tbody>
