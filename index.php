@@ -19,7 +19,7 @@ $result = mysqli_query($conn, $sql);
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-
+<p>test</p>
     <div class="container">
         <div class="row">
             <div class="col">
